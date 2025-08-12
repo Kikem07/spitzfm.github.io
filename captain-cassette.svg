@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1b36"/>
+  <rect x="190" y="150" width="420" height="220" rx="22" fill="#87CEFA" stroke="#000" stroke-width="10"/>
+  <rect x="240" y="190" width="320" height="90" rx="12" fill="#FFF6D6" stroke="#000" stroke-width="8"/>
+  <circle cx="310" cy="320" r="28" fill="#FFF6D6" stroke="#000" stroke-width="8"/>
+  <circle cx="490" cy="320" r="28" fill="#FFF6D6" stroke="#000" stroke-width="8"/>
+  <text x="400" y="430" font-size="44" text-anchor="middle" fill="#FFF6D6" font-family="Poppins, Arial" font-weight="700">Captain Cassette</text>
+</svg>
