@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <rect width="320" height="80" rx="12" fill="#0b1f17" />
+  <g transform="translate(20,12)">
+    <polygon points="20,28 40,0 60,28 40,56" fill="#2ee4a6" stroke="#0a8f6a" stroke-width="3"/>
+    <text x="80" y="36" font-family="Poppins, Arial" font-size="24" fill="#2ee4a6" font-weight="700">Emerald Banqueting Suites</text>
+  </g>
+</svg>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ShitnFm — Retro 80s Radio</title>
+  <meta name="description" content="ShitnFm — neon-meets-cartoon retro 80s radio vibes." />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Poppins:wght@400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="crt">
+  <header class="topbar" role="banner">
+    <a class="logo" href="#" aria-label="ShitnFm home">Shitn<span>Fm</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#presenters">Presenters</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#store">Store</a>
+      <button class="btn btn-neon" id="subscribeBtn" aria-haspopup="dialog">Subscribe</button>
+      <a href="#donate" class="btn btn-outline">Donate</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="clouds"></div>
+    <div class="hero-inner">
+      <h1 class="bubble">a new vibe for Brankister</h1>
+      <p class="tagline">Coming 10/10/2024 • 10:10 PM</p>
+
+      <div class="deck" role="group" aria-label="Radio controls">
+        <button class="btn btn-push play" aria-label="Play stream">Play</button>
+        <button class="btn btn-push rec" aria-label="Record clip">Record</button>
+        <button class="btn btn-push stop" aria-label="Stop stream">Stop</button>
+      </div>
+
+      <div class="ticker" role="status" aria-live="polite">
+        <span class="label">Now playing:</span>
+        <div class="marquee">
+          <span>A Plus — “Never Forget” • Up next: “Out of Power” (Sundays 19:20) • The Computer Wore Menace Sneakers — Premiere this Friday! • </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="promos" aria-label="Highlights and sponsors">
+    <article class="vhs-card">
+      <h2>Upcoming Episode</h2>
+      <h3>The Computer Wore Menace Sneakers</h3>
+      <p>Premieres Friday at 22:10 — Set a reminder so you don’t miss it.</p>
+      <button class="btn btn-neon" id="reminderBtn">Set Reminder</button>
+    </article>
+
+    <article class="sports-card">
+      <h2>What a Gooaall!! — Sports</h2>
+      <p>Saturdays from 10:00 AM</p>
+      <a class="btn btn-outline" href="#sports">See lineup</a>
+    </article>
+
+    <aside class="sponsor" aria-label="Sponsor">
+      <h4>Sponsored by</h4>
+      <img alt="Emerald Banqueting Suites" src="assets/emerald-logo.svg" width="220" height="60">
+      <p>feel the sparkle</p>
+    </aside>
+  </section>
+
+  <section id="schedule" class="schedule" aria-label="Weekly schedule">
+    <h2 class="section-title">Schedule</h2>
+    <div class="grid">
+      <div class="cell head">Time</div>
+      <div class="cell head">Mon</div><div class="cell head">Tue</div><div class="cell head">Wed</div><div class="cell head">Thu</div><div class="cell head">Fri</div><div class="cell head">Sat</div><div class="cell head">Sun</div>
+
+      <div class="cell time">08:00</div>
+      <div class="cell">Morning Cartoons</div><div class="cell">Sunrise Synths</div><div class="cell">Toon Tunes</div><div class="cell">Lo-Fi Lines</div><div class="cell">Retro Rewind</div><div class="cell">Kickoff Warmup</div><div class="cell">Story Time</div>
+
+      <div class="cell time">10:00</div>
+      <div class="cell">Neon News</div><div class="cell">Vinyl Voyage</div><div class="cell">Pixel Pop</div><div class="cell">Cassette Club</div><div class="cell">Mixtape Friday</div><div class="cell highlight">What a Gooaall!!</div><div class="cell">Brunch Beats</div>
+
+      <div class="cell time">19:20</div>
+      <div class="cell"></div><div class="cell"></div><div class="cell">Arcade Anthems</div><div class="cell"></div><div class="cell">Premiere Night</div><div class="cell"></div><div class="cell highlight">Out of Power</div>
+    </div>
+  </section>
+
+  <section id="presenters" class="presenters" aria-label="Presenters">
+    <h2 class="section-title">Presenters</h2>
+    <div class="cards">
+      <article class="card">
+        <img src="assets/icon-radio.svg" alt="" width="64" height="64" />
+        <h3>DJ Neon</h3>
+        <p>Bringing VHS warmth and cassette crunch to your evenings.</p>
+      </article>
+      <article class="card">
+        <img src="assets/icon-trophy.svg" alt="" width="64" height="64" />
+        <h3>Nalin’s Trophies</h3>
+        <p>Prize Winners: Bob Jesus, Mary Janet — congrats!</p>
+      </article>
+      <article class="card">
+        <img src="assets/icon-cassette.svg" alt="" width="64" height="64" />
+        <h3>Captain Cassette</h3>
+        <p>All-tape, all the time. B-sides welcome.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="store" class="store" aria-label="Store">
+    <h2 class="section-title">Store</h2>
+    <div class="store-grid">
+      <div class="store-item">
+        <img src="assets/badge-memphis.svg" alt="" width="80" height="80" />
+        <h3>Alewete Scarfs</h3>
+        <p>Limited edition drop. Cozy + neon trim.</p>
+        <button class="btn btn-outline">Buy now</button>
+      </div>
+      <div class="store-item">
+        <img src="assets/icon-cassette.svg" alt="" width="64" height="64" />
+        <h3>Mixtape Vol. 1</h3>
+        <p>Hand-curated 80s-inspired tracks.</p>
+        <button class="btn btn-outline">Buy now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <nav class="footer-links" aria-label="Legal">
+      <a href="#privacy">Privacy & Cookies</a>
+      <a href="#terms">Terms of Use</a>
+      <a href="#gdpr">GDPR</a>
+    </nav>
+    <small>© ShitnFm 2024 • Powered by Kaka Industries — An original, cartoon-inspired site (no third-party IP).</small>
+  </footer>
+
+  <audio id="radio" preload="none" src="https://stream.example.com/shitnfm.mp3"></audio>
+
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+
+  <dialog id="subscribeModal" aria-label="Subscribe to newsletter">
+    <form method="dialog" class="modal-card">
+      <h3>Subscribe to newsletter</h3>
+      <p>Get episode drops and mixtapes straight to your inbox.</p>
+      <label>Email <input type="email" required placeholder="you@example.com" /></label>
+      <menu>
+        <button value="cancel" class="btn">Cancel</button>
+        <button value="submit" class="btn btn-neon">Subscribe</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
