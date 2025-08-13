@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Presenters — ShitnFm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Poppins:wght@400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .hero-mini{background:radial-gradient(120% 80% at 50% 0%, #2a2d6e 0,#0F1020 60%);padding:40px 24px;text-align:center}
+    .hero-mini h1{font-family:"Bangers";color:var(--banana);-webkit-text-stroke:2px #000;text-shadow:0 6px 0 #000,0 12px 24px rgba(0,0,0,.4);font-size: clamp(36px,6vw,72px)}
+    .profiles{max-width:1100px;margin:24px auto;padding:0 24px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    @media (max-width: 980px){.profiles{grid-template-columns:1fr}}
+    .profile{background:#1a1b36;border:3px solid #000;border-radius:20px;box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
+    .profile img,.profile svg{width:100%;height:auto;display:block}
+    .profile .inner{padding:18px}
+    .profile h2{margin:.2rem 0 .4rem;font-family:"Luckiest Guy"}
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .tag{font-size:12px;padding:4px 8px;border:2px solid #000;border-radius:999px;background:linear-gradient(90deg,var(--magenta),var(--cyan));color:#001;font-weight:700}
+  </style>
+</head>
+<body class="crt">
+  <header class="topbar">
+    <a class="logo" href="index.html">Shitn<span>Fm</span></a>
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="presenters.html">Presenters</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="index.html#store">Store</a>
+      <a href="index.html#donate" class="btn btn-outline">Donate</a>
+    </nav>
+  </header>
+
+  <section class="hero-mini">
+    <h1>Presenters</h1>
+    <p>Meet the voices behind the vinyl — cartoon retro vibes, real radio energy.</p>
+  </section>
+
+  <main class="profiles">
+    <article class="profile">
+      <img src="assets/presenters/dj-rhythm-shay.jpg" alt="DJ Rhythm Shay at the decks" />
+      <div class="inner">
+        <div class="tags">
+          <span class="tag">Foundational</span>
+          <span class="tag">Harlem & Bronx</span>
+          <span class="tag">Twin Turntables</span>
+        </div>
+        <h2>DJ Rhythm Shay</h2>
+        <p><strong>Before hip‑hop had a name</strong>, DJ Rhythm Shay was laying its foundation in smoky Harlem basements and Bronx block parties. Blending jump blues, doo‑wop, and early rock ’n’ roll with rhythmic spoken word, Shay used twin turntables to loop breaks from R&amp;B records and hype the crowd with rhymed shout‑outs. Her sets were raw, electric, and infectious — often featuring live percussion and dancers freestyling to her beats.</p>
+        <p>Though the term “hip‑hop” wouldn’t emerge until decades later, Shay’s rhythmic innovations and crowd‑moving charisma made her a legend among street DJs. She’s remembered as one of the earliest architects of the culture, spinning vinyl and spitting rhymes before the world knew what to call it.</p>
+      </div>
+    </article>
+
+    <article class="profile">
+      <img src="assets/presenters/dj-neon.svg" alt="DJ Neon badge art" />
+      <div class="inner">
+        <div class="tags">
+          <span class="tag">Synthwave</span>
+          <span class="tag">VHS Warmth</span>
+          <span class="tag">Night Drive</span>
+        </div>
+        <h2>DJ Neon</h2>
+        <p>Bringing VHS warmth and cassette crunch to your evenings. Neon blends city‑pop deep cuts, arcade soundtracks, and sunset‑drenched synths for a blissed‑out night drive — windows down, skyline glowing.</p>
+      </div>
+    </article>
+
+    <article class="profile">
+      <img src="assets/presenters/captain-cassette.svg" alt="Captain Cassette badge art" />
+      <div class="inner">
+        <div class="tags">
+          <span class="tag">All-Tape</span>
+          <span class="tag">B‑Sides</span>
+          <span class="tag">Analog Only</span>
+        </div>
+        <h2>Captain Cassette</h2>
+        <p>Guardian of the hiss. The Captain spins all‑tape sets, flips B‑sides you forgot you loved, and brings live deck‑to‑deck blends for pure analog joy. No skips, just flips.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer-links">
+      <a href="index.html#privacy">Privacy & Cookies</a>
+      <a href="index.html#terms">Terms of Use</a>
+      <a href="index.html#gdpr">GDPR</a>
+    </nav>
+    <small>© ShitnFm 2024 • Powered by Kaka Industries</small>
+  </footer>
+
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+  <script src="script.js"></script>
+</body>
+</html>
