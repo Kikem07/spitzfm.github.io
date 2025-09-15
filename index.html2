@@ -8,26 +8,21 @@
 
   <audio id="radio-player" controls autoplay></audio>
 
-  <script>
-    const playlist = [
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/04+Pumped+Up+Kicks.mp3",
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/04+Sadness.mp3",
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/93+'Til+Infinity+(LP+Instrumental).mp3"
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/A+Madman's+Dream+(Dirty).mp3",
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/Acid+Raindrops+(Instrumental).mp3",
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/Alagbada+Ina.mp3"
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/Archer+-+Cherlene+-+Danger+Zone+-+Duet+With+Kenny+Loggins.mp3",
-      "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/Bone+Thugs+-+Wind+Blow+Instrumental.mp3"
-    
-    ];
+<script> 
+const playlist = [ "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/04+Pumped+Up+Kicks.mp3", "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/04+Sadness.mp3", "https://my-music-streaming-audio.s3.eu-north-1.amazonaws.com/93+'Til+Infinity+(LP+Instrumental).mp3"
+]; 
+</script>
 
-    let currentTrack = 0;
-    const audioPlayer = document.getElementById("radio-player");
+<audio id="radio-player" controls autoplay></audio>
 
-    function loadTrack(index) {
-      audioPlayer.src = playlist[index];
-      audioPlayer.play();
-    }
+<script>
+let currentTrack = 0;
+const audioplayer = document.getElementById("radio-player");
+
+function loadTrack(index) {
+audioPlayer.src = playlist[index];
+audioPlayer.play();
+}
 
     audioPlayer.addEventListener("ended", function() {
       currentTrack++;
